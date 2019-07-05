@@ -1,0 +1,254 @@
+body, div, ul, ol, li, dl, dt, dd, a1, a2, a3, h1, h2, h3, h4, h5, h6, form, input, textarea, p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+}
+
+ul {
+    list-style: none;
+}
+
+img, a img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    height: 502px;
+    background: url(../../images/tupian/tikuang.jpg) repeat-x;
+    color: #ffffff;
+}
+
+#main {
+    background: url(../../images/tupian/main_top_bg.jpg) repeat-x;
+}
+
+#main1 {
+    background: url(../../images/tupian/main1_bottom_bg.jpg) 0px bottom repeat-x;
+}
+
+#footer {
+    height: 100px;
+    background: url(../../images/tupian/footer_bg.jpg) repeat-x;
+}
+
+#a1 {
+    height: 150px;
+    text-align: center;
+
+}
+
+#a1 .logo1 {
+    width: 135px;
+    height: 135px;
+    padding: 10px 0 0 0;
+    float: left;
+}
+
+#a1 .logo2 {
+    width: 790px;
+    height: 150px;
+    padding: 15px 0 0 0;
+    float: left;
+}
+
+#a1 h1 span {
+    font-size: 14px;
+    color: #CCCCCC;
+    float: right;
+}
+
+#a1 .serach {
+    width: 280px;
+    height: 50px;
+    float: right;
+    margin: 30px 30px 0px 20px;
+
+}
+
+#a1 .serach .text {
+    width: 180px;
+    height: 15px;
+    background: #cccccc;
+    border: 1px solid #ffffff;
+    padding: 5px;
+}
+
+#a1 .serach .submit {
+    width: 80px;
+    height: 28px;
+    cursor: pointer;
+}
+
+#a1 .serach .submit:hover {
+    background: url(../../images/tupian/d_hover.png);
+    color: white;
+}
+
+#a2 {
+    height: 50px;
+
+}
+
+#a2 ul {
+    margin: 0 0 0 25px;
+}
+
+#a2 ul li {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+#a2 ul li a {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    width: 103px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    margin: 10px 0 0 0;
+}
+
+#a2 ul li a:hover {
+    background: url(../../images/tupian/d_hover.png);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#a3 {
+    height: 305px;
+    background: url(../../images/tupian/runplay_bg.jpg) 5px bottom repeat-x;
+}
+
+#a3 .left {
+    width: 305px;
+    float: left;
+    margin: 50px 0 0 30px;
+    display: inline;
+}
+
+#a3 .left {
+    width: 305px;
+    float: left;
+    margin: 50px 0 0 80px;
+    display: inline;
+}
+
+#a3 .left dl dt {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+
+#a3 .left dl dd.txt {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 0 20px 0;
+}
+
+#a3 .left dl dd.ckgd a {
+    background: url(../../images/tupian/default.png);
+    display: block;
+    width: 103px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#a3 .left dl dd.ckgd a:hover {
+    background: url(../../images/tupian/d_hover.png);
+}
+
+#a3 .right {
+    width: 305px;
+    float: right;
+    margin: 80px 0 0 30px;
+    display: inline;
+}
+
+#a3 .right dl.submit input:hover {
+    background: url(../../images/tupian/d_hover.png);
+}
+
+.auto {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#wrap {
+    width: 1380px;
+    height: 850px;
+    margin: 0 auto;
+}
+
+#wrap #leftb {
+    width: 1350px;
+    height: 850px;
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+#wrap #rightb {
+    width: 240px;
+    height: 850px;
+    float: right;
+}
+
+#wrap #leftb .leftt1 h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 25px 0 20px 0;
+}
+
+#wrap #leftb .leftt2 h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 25px 0 20px 0;
+}
+
+#wrap #leftb .leftt2 ul li {
+    width: 1350px;
+    height: 650px;
+    background: #d9d9d9;
+    border: 1px solid #000000;
+    padding: 6px;
+    float: left;
+    margin: 0 25px 25px 0;
+}
+
+#wrap #leftb .leftt2 ul li p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#footer p {
+    text-align: center;
+    color: #ffffff;
+    line-height: 200%;
+}
+
+#footer p.f1 {
+    padding-top: 15px;
+}
+
+#footer p a {
+    color: #ffffff;
+    margin: 0 30px 0 0;
+    text-decoration: underline;
+}
+
+#footer p a.last {
+    margin: 0;
+}
